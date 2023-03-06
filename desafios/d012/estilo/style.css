@@ -55,6 +55,10 @@ section {
     padding: 10vh 0 10vh 30px;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     color: black;
     background-color: white;
@@ -63,14 +67,27 @@ section.normal {
 section.imagem {
     color: white;
     background-color: rgb(51, 51, 51);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+
+section#img01 {
+    background: url(../imagens/background001.jpg) center right fixed;
+    background-size: cover;
+}
+
+section#img02 {
+    background: url(../imagens/background002.jpg) right bottom fixed;
+    background-size: cover;
 }
 
 section.imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.363);
+    text-shadow: 1px 1px 0px black;
     padding: 6px;
     
 }
+
 
 footer {
     color: white;
